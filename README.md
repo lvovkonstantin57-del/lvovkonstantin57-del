@@ -28,6 +28,7 @@
 | Проект | Что это | Стек |
 |---|---|---|
 | **[Расписание МПГУ](https://github.com/lvovkonstantin57-del/mpgu-timetable)** | Приложение с расписанием пар, напоминаниями, объявлениями старост и отметкой посещаемости по коду. Роли студент / староста / преподаватель / админ, импорт из xlsx. Android, iOS и веб. | FastAPI · SQLite · Capacitor · Docker · GitHub Actions |
+| **[StichOS](https://github.com/lvovkonstantin57-del/stich-os)** | Веб-рабочий стол для домашнего сервера в стиле macOS: окна, Dock, Spotlight, управление сервисами, музыка, фото, вход по passkey. | FastAPI · JS (ES-модули) · D3 · Docker · Ollama |
 | **[Business Card API](https://github.com/lvovkonstantin57-del/business-card-api)** | Цифровая визитка в виде GraphQL API: профиль, навыки, опыт, проекты. DataLoader без N+1, e2e-тесты, [живое демо](https://business-card-api-caxj.onrender.com/graphql). | NestJS · GraphQL · Prisma · PostgreSQL · Docker |
 | **[tg-webapp](https://github.com/lvovkonstantin57-del/tg-webapp)** | Первая версия расписания — Telegram Mini App в стиле iOS, подстраивается под тему Telegram. | HTML · CSS · JS · Telegram WebApp |
 | **[MPGU Schedule Bot](https://github.com/lvovkonstantin57-del/mpgu-schedule-bot)** | Telegram-бот расписания: регистрация по ФИО, админ-панель, импорт из Excel, деплой одной командой. | aiogram · aiohttp · SQLite · Caddy |
@@ -38,6 +39,6 @@
 
 ### 🔭 Now
 
-- 🖥 Собираю домашний сервер на Ubuntu: Docker, WireGuard, свой веб-дашборд в стиле macOS
+- 🖥 Собираю домашний сервер на Ubuntu: Docker, WireGuard, свой веб-дашборд [StichOS](https://github.com/lvovkonstantin57-del/stich-os) в стиле macOS
 - 🎨 Переписываю сайт-портфолио с нуля: FastAPI + JS, два «мира» — IT-консоль и продакшн-студия
 - 🎬 Параллельно снимаю видео — запускаю **Stich Production**
