@@ -30,6 +30,9 @@
 | **[Расписание МПГУ](https://github.com/lvovkonstantin57-del/mpgu-timetable)** | Приложение с расписанием пар, напоминаниями, объявлениями старост и отметкой посещаемости по коду. Роли студент / староста / преподаватель / админ, импорт из xlsx. Android, iOS и веб. | FastAPI · SQLite · Capacitor · Docker · GitHub Actions |
 | **[Business Card API](https://github.com/lvovkonstantin57-del/business-card-api)** | Цифровая визитка в виде GraphQL API: профиль, навыки, опыт, проекты. DataLoader без N+1, e2e-тесты, [живое демо](https://business-card-api-caxj.onrender.com/graphql). | NestJS · GraphQL · Prisma · PostgreSQL · Docker |
 | **[tg-webapp](https://github.com/lvovkonstantin57-del/tg-webapp)** | Первая версия расписания — Telegram Mini App в стиле iOS, подстраивается под тему Telegram. | HTML · CSS · JS · Telegram WebApp |
+| **[MPGU Schedule Bot](https://github.com/lvovkonstantin57-del/mpgu-schedule-bot)** | Telegram-бот расписания: регистрация по ФИО, админ-панель, импорт из Excel, деплой одной командой. | aiogram · aiohttp · SQLite · Caddy |
+| **[Stich AI Chat](https://github.com/lvovkonstantin57-del/stich-ai-chat)** | Мини-чат с нейросетью для сайта и админка для ключа — ключ не уходит в браузер, есть лимиты и защита промпта. | FastAPI · JS · OpenAI-compatible API |
+| **[Internet Spend](https://github.com/lvovkonstantin57-del/internet-spend)** | Мини-апп «сколько я трачу на интернеты»: подписки и хостинги, сумма в месяц и в год. | Python stdlib · HTML · JS |
 
 ---
 
