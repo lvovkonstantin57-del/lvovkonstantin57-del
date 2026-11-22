@@ -11,9 +11,10 @@
 <tr>
 <td width="68%" valign="top">
 
-<sub><b>ГЛАВНОЕ</b></sub>
-
-## Студент МПГУ написал расписание для своего вуза — с приложением и посещаемостью
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/headline-dark.svg">
+  <img src="assets/headline-light.svg" alt="Студент МПГУ написал расписание для своего вуза — с приложением и посещаемостью" width="100%">
+</picture>
 
 **П**роект прошёл три версии: от мини-приложения в Telegram к боту и, наконец, к самостоятельному сервису **mpgu-timetable**. Пары, напоминания, объявления старост и отметка посещаемости по коду теперь в одном месте, а сборки под Android и iOS собираются автоматически.
 
@@ -22,21 +23,25 @@
 </td>
 <td width="32%" valign="top">
 
-### Об авторе
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-author-dark.svg">
+  <img src="assets/h-author-light.svg" alt="Об авторе" width="100%">
+</picture>
 
 **Константин Львов**, студент первого курса МПГУ. Пишет на Python, держит домашний сервер `stich-server` и собирает сервисы, которыми пользуются однокурсники.
 
+<sub>ЦИТАТА НОМЕРА</sub>
+
 > *«Если сервис можно поднять у себя дома — я подниму»*
->
-> <sub>ЦИТАТА НОМЕРА</sub>
 
 </td>
 </tr>
 </table>
 
----
-
-## Другие проекты <sub>· раздел II</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-projects-dark.svg">
+  <img src="assets/h-projects-light.svg" alt="Другие проекты — раздел II" width="100%">
+</picture>
 
 <table>
 <tr>
@@ -57,24 +62,24 @@
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td width="33%" valign="top">
 <sub><code>AIOGRAM · AIOHTTP · SQLITE</code></sub><br>
 <b><a href="https://github.com/lvovkonstantin57-del/mpgu-schedule-bot">MPGU Schedule Bot</a></b><br>
 Бот регистрирует студентов по ФИО, мини-приложение показывает расписание.
 </td>
-<td valign="top">
+<td width="33%" valign="top">
 <sub><code>REACT · VITE · FASTAPI</code></sub><br>
 <b><a href="https://github.com/lvovkonstantin57-del/stich-portfolio">Stich Portfolio</a></b><br>
 Личный сайт с маскотом и встроенным редактором контента.
 </td>
-<td valign="top">
+<td width="33%" valign="top">
 <sub><code>PYTHON STDLIB</code></sub><br>
 <b><a href="https://github.com/lvovkonstantin57-del/internet-spend">Internet Spend</a></b><br>
 Учёт подписок и связи: сколько уходит в месяц и в год.
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td width="33%" valign="top">
 <sub><code>HTML · CSS · JS</code></sub><br>
 <b><a href="https://github.com/lvovkonstantin57-del/tg-webapp">tg-webapp</a></b><br>
 Первая версия расписания как Telegram WebApp.
@@ -84,20 +89,29 @@
 </tr>
 </table>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" alt="" width="100%">
+</picture>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Объявления
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-announce-dark.svg">
+  <img src="assets/h-announce-light.svg" alt="Объявления" width="100%">
+</picture>
 
 Открыт к стажировкам в бэкенде. Пишите в Telegram [@l1ttleStich](https://t.me/l1ttleStich) или на lvovkonstantin57@gmail.com.
 
 </td>
 <td width="50%" valign="top">
 
-### В следующем выпуске
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-next-dark.svg">
+  <img src="assets/h-next-light.svg" alt="В следующем выпуске" width="100%">
+</picture>
 
 Как студент учит C# и что из этого выйдет.
 
