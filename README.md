@@ -5,7 +5,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/manual-parts-dark.svg">
-  <img src="assets/manual-parts-light.svg" alt="Комплектация: студент МПГУ, ноутбук, домашний сервер, восемь репозиториев, дорога до вуза, терпение" width="100%">
+  <img src="assets/manual-parts-light.svg" alt="Комплектация: студент МТИ , ноутбук, домашний сервер, восемь репозиториев, дорога до вуза, терпение" width="100%">
 </picture>
 
 <picture>
