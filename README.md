@@ -1,120 +1,39 @@
-<div align="center">
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/masthead-dark.svg">
-  <img src="assets/masthead-light.svg" alt="The Stich Gazette — новости одного разработчика" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/manual-header-dark.svg">
+  <img src="assets/manual-header-light.svg" alt="Костя Львов — инструкция по сборке. 8 деталей, время сборки: первый курс" width="100%">
 </picture>
 
-</div>
-
-<table>
-<tr>
-<td width="68%" valign="top">
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/headline-dark.svg">
-  <img src="assets/headline-light.svg" alt="Студент МПГУ написал расписание для своего вуза — с приложением и посещаемостью" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/manual-parts-dark.svg">
+  <img src="assets/manual-parts-light.svg" alt="Комплектация: студент МПГУ, ноутбук, домашний сервер, восемь репозиториев, дорога до вуза, терпение" width="100%">
 </picture>
 
-**П**роект прошёл три версии: от мини-приложения в Telegram к боту и, наконец, к самостоятельному сервису **mpgu-timetable**. Пары, напоминания, объявления старост и отметка посещаемости по коду теперь в одном месте, а сборки под Android и iOS собираются автоматически.
-
-[**Читать дальше → mpgu-timetable**](https://github.com/lvovkonstantin57-del/mpgu-timetable)
-
-</td>
-<td width="32%" valign="top">
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/h-author-dark.svg">
-  <img src="assets/h-author-light.svg" alt="Об авторе" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/manual-steps-dark.svg">
+  <img src="assets/manual-steps-light.svg" alt="Шаги сборки: взять студента и ноутбук, подключить домашний сервер, прикрутить восемь проектов, поставить на GitHub" width="100%">
 </picture>
 
-**Константин Львов**, студент первого курса МПГУ. Пишет на Python, держит домашний сервер `stich-server` и собирает сервисы, которыми пользуются однокурсники.
-
-<sub>ЦИТАТА НОМЕРА</sub>
-
-> *«Если сервис можно поднять у себя дома — я подниму»*
-
-</td>
-</tr>
-</table>
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/h-projects-dark.svg">
-  <img src="assets/h-projects-light.svg" alt="Другие проекты — раздел II" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/manual-warning-dark.svg">
+  <img src="assets/manual-warning-light.svg" alt="Не собирать без расписания" width="100%">
 </picture>
 
-<table>
-<tr>
-<td width="33%" valign="top">
-<sub><code>FASTAPI · D3.JS · OLLAMA</code></sub><br>
-<b><a href="https://github.com/lvovkonstantin57-del/stich-os">StichOS</a></b><br>
-Веб-ОС для домашнего сервера: окна, Dock, Spotlight прямо в браузере.
-</td>
-<td width="33%" valign="top">
-<sub><code>NESTJS · PRISMA · POSTGRESQL</code></sub><br>
-<b><a href="https://github.com/lvovkonstantin57-del/business-card-api">Business Card API</a></b><br>
-Цифровая визитка в виде GraphQL API: профиль, навыки, проекты.
-</td>
-<td width="33%" valign="top">
-<sub><code>FASTAPI · JS</code></sub><br>
-<b><a href="https://github.com/lvovkonstantin57-del/stich-ai-chat">Stich AI Chat</a></b><br>
-Кнопка «спросить меня» в футере сайта, отвечает нейросеть.
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<sub><code>AIOGRAM · AIOHTTP · SQLITE</code></sub><br>
-<b><a href="https://github.com/lvovkonstantin57-del/mpgu-schedule-bot">MPGU Schedule Bot</a></b><br>
-Бот регистрирует студентов по ФИО, мини-приложение показывает расписание.
-</td>
-<td width="33%" valign="top">
-<sub><code>REACT · VITE · FASTAPI</code></sub><br>
-<b><a href="https://github.com/lvovkonstantin57-del/stich-portfolio">Stich Portfolio</a></b><br>
-Личный сайт с маскотом и встроенным редактором контента.
-</td>
-<td width="33%" valign="top">
-<sub><code>PYTHON STDLIB</code></sub><br>
-<b><a href="https://github.com/lvovkonstantin57-del/internet-spend">Internet Spend</a></b><br>
-Учёт подписок и связи: сколько уходит в месяц и в год.
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<sub><code>HTML · CSS · JS</code></sub><br>
-<b><a href="https://github.com/lvovkonstantin57-del/tg-webapp">tg-webapp</a></b><br>
-Первая версия расписания как Telegram WebApp.
-</td>
-<td></td>
-<td></td>
-</tr>
-</table>
+### Детали в комплекте
+
+| | Деталь | Назначение |
+|:--|:--|:--|
+| **A** | [mpgu-timetable](https://github.com/lvovkonstantin57-del/mpgu-timetable) | `Python` `FastAPI` `Capacitor` — расписание вуза: пары, напоминания, объявления старост, посещаемость по коду. Сайт [mpgu-timetable.ru](https://mpgu-timetable.ru), сборки под Android и iOS |
+| **B** | [StichOS](https://github.com/lvovkonstantin57-del/stich-os) | `FastAPI` `JavaScript` `D3.js` — веб-ОС домашнего сервера: окна, Dock, вход по passkey |
+| **C** | [Business Card API](https://github.com/lvovkonstantin57-del/business-card-api) | `NestJS` `GraphQL` `Prisma` `PostgreSQL` — цифровая визитка в виде GraphQL API |
+| **D** | [Stich AI Chat](https://github.com/lvovkonstantin57-del/stich-ai-chat) | `FastAPI` `JavaScript` — кнопка «спросить меня» в футере сайта, OpenAI-совместимый API |
+| **E** | [MPGU Schedule Bot](https://github.com/lvovkonstantin57-del/mpgu-schedule-bot) | `aiogram 3` `aiohttp` `SQLite` — бот и мини-приложение с расписанием |
+| **F** | [Stich Portfolio](https://github.com/lvovkonstantin57-del/stich-portfolio) | `React` `Vite` `Python` — личный сайт с маскотом |
+| **G** | [Internet Spend](https://github.com/lvovkonstantin57-del/internet-spend) | `Python stdlib` — учёт подписок и связи, ноль зависимостей |
+| **H** | [tg-webapp](https://github.com/lvovkonstantin57-del/tg-webapp) | `HTML` `CSS` `JavaScript` — первая версия расписания как Telegram WebApp |
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
-  <img src="assets/divider-light.svg" alt="" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/manual-support-dark.svg">
+  <img src="assets/manual-support-light.svg" alt="Открыт к стажировкам в бэкенде" width="100%">
 </picture>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/h-announce-dark.svg">
-  <img src="assets/h-announce-light.svg" alt="Объявления" width="100%">
-</picture>
-
-Открыт к стажировкам в бэкенде. Пишите в Telegram [@l1ttleStich](https://t.me/l1ttleStich) или на lvovkonstantin57@gmail.com.
-
-</td>
-<td width="50%" valign="top">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/h-next-dark.svg">
-  <img src="assets/h-next-light.svg" alt="В следующем выпуске" width="100%">
-</picture>
-
-Как студент учит C# и что из этого выйдет.
-
-</td>
-</tr>
-</table>
+**Связаться:** [Telegram @l1ttleStich](https://t.me/l1ttleStich) · [lvovkonstantin57@gmail.com](mailto:lvovkonstantin57@gmail.com)
